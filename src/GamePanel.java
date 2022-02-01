@@ -8,10 +8,7 @@ import java.awt.event.KeyEvent;
 import javax.swing.Action;
 import javax.swing.JPanel;
 import javax.swing.plaf.DimensionUIResource;
-
 import java.util.Random;
-import java.util.Timer;
-import java.util.random.*;
 
 public class GamePanel extends JPanel implements Action {
 
@@ -177,14 +174,12 @@ public class GamePanel extends JPanel implements Action {
 
     @Override
     public Object getValue(String key) {
-        // TODO Auto-generated method stub
         return null;
     }
 
     @Override
     public void putValue(String key, Object value) {
-        // TODO Auto-generated method stub
-        
+
     }
     
     public class MyKeyAdapter extends KeyAdapter {
